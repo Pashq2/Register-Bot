@@ -1,0 +1,29 @@
+{
+    "name": "aspect-register",
+    "version": "0.0.1",
+    "description": "Aspect Register Bot Altyapısı",
+    "main": "aspect.js",
+    "scripts": {
+        "start": "node aspect.js",
+        "test": "nodemon aspect.js"
+    },
+    "dependencies": {
+        "discord.js": "^12.5.3",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "moment-duration-format": "^2.3.2",
+        "mongoose": "^5.12.9",
+        "nodemon": "^2.0.7",
+        "server.js": "^1.0.0"
+    },
+    "engines": {
+        "node": "12.x"
+    },
+    "license": "MIT",
+    "keywords": [
+        "node",
+        "glitch",
+        "express",
+        "Aspect"
+    ]
+}
